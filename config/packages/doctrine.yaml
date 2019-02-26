@@ -24,6 +24,6 @@ doctrine:
             App:
                 is_bundle: false
                 type: xml
-                dir: '%kernel.project_dir%/src/Application/Entity'
+                dir: '%kernel.project_dir%/src/Infrastructure/Entity'
                 prefix: 'App\Domain\Model'
                 alias: App

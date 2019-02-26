@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace App\UserInterface\Web\Controller;
 
 use App\Application\Command\Product\CreateProductCommand;
-use App\Application\Form\CategoryType;
+use App\UserInterface\Form\CategoryType;
 use Prooph\ServiceBus\CommandBus;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
